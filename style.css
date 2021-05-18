@@ -104,3 +104,28 @@ a {
   margin-left: 2rem;
   font-size: 0.9rem;
 }
+
+.more-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.second-navbar,
+.third-navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.third-navbar {
+  margin-left: 2rem;
+}
+
+.more-on-ableton h2,
+.more-from-ableton h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-left: 2rem;
+}
