@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hind", sans-serif;
+  font-size: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  height: 4.4rem;
+  font-size: 1.13rem;
+  font-weight: 500;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+}
+
+.navbar-left {
+  height: 100%;
+  justify-content: space-evenly;
+  margin-left: -0.5rem;
+}
+
+.navbar-right {
+  justify-content: flex-end;
+  padding-right: 2.2rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.logo {
+  width: 3.8rem;
+}
+
+.more {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.more::after {
+  cursor: pointer;
+  content: "_";
+  position: absolute;
+  margin-left: 1rem;
+  right: -1rem;
+  top: -0.4rem;
+}
+
+.more-negative {
+  position: absolute;
+
+  height: 0.1rem;
+  width: 0.6rem;
+  background-color: black;
+}
+
+.more-positive::before {
+  content: "";
+  cursor: pointer;
+}
+
+.more-positive {
+  position: absolute;
+  right: -0.75rem;
+  top: 0.55rem;
+  height: 0.6rem;
+  width: 0.1rem;
+  background-color: black;
+}
+
+.disappear {
+  display: none;
+}
+
+.try {
+  color: #2c1cff;
+}
+
+.register {
+  margin-left: 2rem;
+  font-size: 0.9rem;
+}
